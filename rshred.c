@@ -108,6 +108,7 @@ main(int argC, char ** argm, char **env) {
 				break;
 			case 'c':
 			     count = atoi(optarg) ;
+			     break;
 			case 'h':
 			default:
 				help(argm[0]);
