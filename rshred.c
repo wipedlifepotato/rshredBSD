@@ -106,6 +106,8 @@ main(int argC, char ** argm, char **env) {
 			case 'r':
 				is_recursive = true;
 				break;
+			case 'c':
+			     count = atoi(optarg) ;
 			case 'h':
 			default:
 				help(argm[0]);
